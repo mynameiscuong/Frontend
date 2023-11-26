@@ -145,7 +145,7 @@ const CallDialog = ({ open, handleClose }) => {
         }
       );
       console.log(response, "TOKEN RESPONSE");
-      this_token = response.data.token;
+      this_token = response.data.this_token;
       // ...
     }
     fetchToken();
