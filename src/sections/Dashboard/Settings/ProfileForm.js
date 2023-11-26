@@ -95,7 +95,7 @@ const ProfileForm = () => {
             size="large"
             type="submit"
             variant="contained"
-            loading={isSubmitSuccessful || isSubmitting}
+            // loading={isSubmitSuccessful || isSubmitting}
           >
             Save
           </LoadingButton>
