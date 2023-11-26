@@ -5,6 +5,7 @@ import { BASE_URL } from '../config';
 // ----------------------------------------------------------------------
 
 const axiosInstance = axios.create({ baseURL: BASE_URL });
+console.log("lỗi nghiêm trọng",axiosInstance);
 
 axiosInstance.interceptors.response.use(
   (response) => response,
